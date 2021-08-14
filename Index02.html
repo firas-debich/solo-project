@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+<body style="background-color: black;">
+<div id="whole_container">
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-3 sidenav">
+      <h4 style="color:white">Ticket Booking</h4>
+      <ul class="nav nav-pills nav-stacked">
+        <li style="background-color: black;"  ><a href="index.html" style="color: white;">Home</a></li>
+        <li><a href="#section2" style="color: white;" >Latest Movie</a></li>
+     
+        <li><a href="#section3" style="color: white;">Contact Us</a></li>
+      </ul><br>
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search movie.." id="mv_to_search">
+        <span class="input-group-btn">
+          <button class="btn btn-default" type="button" id="filter">
+            <span class="glyphicon glyphicon-search"></span>
+          </button>
+        </span>
+      </div>
+    </div>
+
+    <div class="header1">Movies & TV Shows</div>
+
+<div id="search">
+<div>
+<img  src="images/predestination.jpeg" id="img_style">
+<div id="prix_1"></div>
+<div id="nested_div">
+	<h1 id="header00" style="color:white ">Ticket Reservation</h1>
+  <p style="color:white"><span id="descript">Description:</span> Predestination is a 2014 Australian science fiction film written, co-produced and directed by Michael and Peter Spierig. It is an adaptation of the short story You Zombies by Robert A. Heinlein published in 1959.</p>
+	 <fieldset>
+	 	<legend style="color:white"> Choice Of Seat </legend> 
+	  <select name="listPlace" id="select_change"> 
+            <option value= "mezzanine" > Mezzanine</option>           
+            <option value= "Balcony">  Balcony </option> 
+            <option value= "front stage">   front stage </option> 
+    </select>
+        <label style="color:white"> At The Price Of : </label> 
+        <input type="number" id="prix001" value="75" readonly /><br><br>
+        <label style="color:white"> Number of Seats :  </label> 
+    <input type="number" name="nb" min="1" max="20" value="1" id="number_Place" />
+    <br>
+    <button id="prix002">Total</button>
+    <input type="number" id="result" value="" readonly ><br>
+    <div class="app"></div>
+    <button id="for_paying">Pay</button>
+
+    </fieldset>
+</div>  
+</div>
+</div> 
+
+ </div>
+</div>
+</div>
+
+
+
+
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,184 @@
+
+@media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+    }
+
+
+
+/*Header Style*/
+.header1{
+	border: 1px solid black;
+	width: 74%;
+	height: 50px;
+	margin-top: 10px;
+	margin-left: 320px;
+	background-color: red;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	border-radius:5px ;
+	padding-top:10px ;
+	padding-bottom: 20px;
+	font-size:25px ;
+	 
+}
+
+.mv1{
+margin-left: 336px;
+    margin-top: 18px;
+}
+.mv2{
+	margin-left: 336px;
+    margin-top: 16px;
+
+}
+
+.mv3{
+    margin-left: 645px;
+    margin-top: -560px;
+
+
+}
+.mv4{
+
+margin-left: 647px;
+    margin-top: 15px;
+
+
+}
+.mv5{
+
+    margin-top: -560px;
+    margin-left: 953px;
+
+
+}
+.btn1{
+	border: none;
+	width: 250px;
+	background-color: red;
+}
+.mv6{
+
+    margin-top: 15px;
+    margin-left: 954px
+
+
+}
+.imageSize{
+	width: 250px;
+	height: 250px;
+}
+#whole_container{
+	margin-bottom: 80px;
+}
+#footer{
+	
+	color : white;
+	border: 1px solid black;
+	height: 50px;
+	text-align: center;
+	padding-top:10px ;
+}
+#img_style{
+margin-top: 30px;
+    width: 250px;
+    height: 300px;
+    margin-left: 15px;
+}
+#prix_1{
+
+/*background-color: grey;*/
+    /*border: 1px solid black;*/
+    width: 657px;
+    height: 500px;
+    margin-left: 585px;
+    margin-top: -304px;
+    position: relative;
+}
+#nested_div{
+position: absolute;
+width: 640px;
+    height: 475px;
+    /*background-color: pink;*/
+    margin-left: 595px;
+    margin-top: -490px;
+
+}
+#header00{
+	font-weight: bold;
+	text-align: center;
+	color: #29466a;
+}
+#prix001{
+	width: 60px;
+	border-radius: 5px;
+	text-align: center;
+}
+#descript{
+	font-weight: bold;
+}
+#prix002{
+
+width: 100px;
+margin-top: 20px;
+
+}
+#result{
+width: 60px;
+	border-radius: 5px;	
+	    margin-left: 103px;
+	    text-align: center;
+}
+.span{
+	color: green;
+}
+.app{
+	margin-bottom: 20px;
+}
+#for_paying{
+	margin-left: 0px
+	margin-top: 30px;
+	width: 100px;
+}
+#search{
+	margin-left: 10px;
+
+}
+#text{
+
+text-align: center;
+
+}
+#ticket_pay{
+
+	 width: 647px;
+    height: 230px;
+  margin-left: 152px;
+    margin-top: 40px;
+}
+#pra{
+
+text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+    margin-top: 71px;
+    color: #29466a;
+
+}
+#number_Place{
+	margin-left: 83px;
+	border-radius: 5px;
+	    width: 60px;
+	    text-align: center;
+}
+a:hover{
+	color:red !important;
+}
+.hov:hover{
+	color: white !important;
+}
