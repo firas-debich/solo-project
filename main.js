@@ -60,7 +60,7 @@ $(document).ready(function(){
   // Show the Modal on load
   $("#myModal").modal("show");
     
-  // Hide the Modal
+ 
  
 });
 </script>`)
@@ -68,7 +68,7 @@ $(document).ready(function(){
 
 })
 
-
+// for searching the movie
   
 $("#filter").click(function(){
     object_of_mouvie=[
@@ -120,7 +120,37 @@ $("#filter").click(function(){
     }
     //if the movie not availble
     if(test===false){
-    alert("this film is not availble")
+   
+     var temp1=$(`
+ <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title"><p id="pra" style="color: black;">this movie is not available  </p></h4>
+        </div>
+        <div class="modal-body">
+      
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal" id="btn_close">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div></div><script>
+$(document).ready(function(){
+  // Show the Modal on load
+  $("#myModal").modal("show");
+    
+ 
+ 
+});
+</script>`)
+    $("#search").append(temp1)
     }
 
 })   
